@@ -14,7 +14,7 @@ router.post(
   asyncHandler(async (req, res) => {
     const { email, password } = req.body;
     const user = await User.findOne({ email });
-
+    console.log(user);
     if (user && (await user.matchPassword(password))) {
       res.json({
         _id: user._id,
@@ -31,9 +31,9 @@ router.post(
 
 // REGISTER
 router.post(
-  "/",
+  "/register",
   asyncHandler(async (req, res) => {
-    const { name, email, password } = req.body;
+    const { firstName, lastName, email, password, image } = req.body;
 
     const userExists = await User.findOne({ email });
 
@@ -43,7 +43,8 @@ router.post(
     }
 
     const user = await User.create({
-      name,
+      firstName,
+      lastName,
       email,
       password,
       image,
@@ -72,9 +73,13 @@ router.get(
     if (user) {
       res.json({
         _id: user._id,
-        name: user.name,
+        firstName: user.firstName,
+        lastName: user.lastName,
         email: user.email,
+        password: user.password,
         image: user.image,
+        phone: user.phone,
+        address: user.address,
         createdAt: user.createdAt,
       });
     } else {
@@ -92,18 +97,24 @@ router.put(
     const user = await User.findById(req.user._id);
 
     if (user) {
-      user.name = req.body.name || user.name;
+      user.firstName = req.body.firstName || user.firstName;
+      user.lastName = req.body.lastName || user.lastName;
       user.email = req.body.email || user.email;
       user.image = req.body.image || user.image;
+      user.phone = req.body.phone || user.phone;
+      user.address = req.body.address || user.address;
       if (req.body.password) {
         user.password = req.body.password;
       }
       const updatedUser = await user.save();
       res.json({
         _id: updatedUser._id,
-        name: updatedUser.name,
+        firstName: updatedUser.firstName,
+        lastName: updatedUser.lastName,
         email: updatedUser.email,
         image: updatedUser.image,
+        phone: updatedUser.phone,
+        address: updatedUser.address,
         createdAt: updatedUser.createdAt,
         token: generateToken(updatedUser._id),
       });

@@ -11,13 +11,22 @@ const UserSchema = new Schema({
     type: String,
     required: true,
   },
-  name: {
+  firstName: {
+    type: String,
+  },
+  lastName: {
     type: String,
   },
   image: {
     type: String,
     default:
       "https://media.wired.com/photos/59264baf7034dc5f91beaf03/master/w_2560%2Cc_limit/DroneTA_GettyImages-599365398.jpg",
+  },
+  phone: {
+    type: String,
+  },
+  address: {
+    type: String,
   },
 });
 UserSchema.set("timestamps", true);
