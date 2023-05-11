@@ -3,11 +3,7 @@
   "info": {
     "version": "1.0.0",
     "title": "Electronic API",
-    "description": "Electronic API",
-    "license": {
-      "name": "MIT",
-      "url": "https://opensource.org/licenses/MIT"
-    }
+    "description": "Electronic API"
   },
 
   "tags": [

@@ -19,23 +19,6 @@ const app = express();
 
 connectDB();
 
-const options = {
-  definition: {
-    openapi: "3.0.0",
-    info: {
-      title: "Electronic API",
-      version: "1.0.0",
-      description: " API",
-    },
-    servers: [
-      {
-        url: "https://electronic-server.onrender.com",
-      },
-    ],
-  },
-  apis: ["./routes/*.js"],
-};
-
 const specs = require("./swagger.json");
 
 app.use("/api-docs", swaggerUI.serve, swaggerUI.setup(specs));
