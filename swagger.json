@@ -16,8 +16,8 @@
       "description": "API for products in the system"
     },
     {
-      "name": "Blogs",
-      "description": "API for blogs in the system"
+      "name": "Order",
+      "description": "API for orders in the system"
     }
   ],
   "consumes": ["application/json"],
@@ -29,12 +29,18 @@
         "description": "Login user in system",
         "parameters": [
           {
-            "name": "user",
-            "in": "body",
+            "name": "email",
+            "in": "path",
+            "type": "string",
+            "description": "The email for login",
+            "required": true
+          },
+          {
+            "name": "password",
+            "in": "path",
+            "type": "string",
             "description": "",
-            "schema": {
-              "$ref": "#/definitions/User"
-            }
+            "required": true
           }
         ],
         "produces": ["application/json"],
@@ -52,20 +58,10 @@
       "post": {
         "tags": ["Users"],
         "description": "Create new user in system",
-        "parameters": [
-          {
-            "name": "user",
-            "in": "body",
-            "description": "User that we want to create",
-            "schema": {
-              "$ref": "#/definitions/User"
-            }
-          }
-        ],
         "produces": ["application/json"],
         "responses": {
           "200": {
-            "description": "New user is created",
+            "description": "Create user object",
             "schema": {
               "$ref": "#/definitions/User"
             }
@@ -85,7 +81,7 @@
       ],
       "get": {
         "tags": ["Users"],
-        "summary": "Get profile with given ID",
+        "summary": "Find profile user by id",
         "responses": {
           "200": {
             "description": "User is found",
@@ -96,12 +92,12 @@
         }
       },
       "put": {
-        "summary": "Update profile with give ID",
+        "summary": "Update profile user by id",
         "tags": ["Users"],
 
         "responses": {
           "200": {
-            "description": "Profile user is updated",
+            "description": "Update profile user",
             "schema": {
               "$ref": "#/definitions/User"
             },
@@ -132,6 +128,29 @@
         "responses": {
           "200": {
             "description": "Product in system",
+            "schema": {
+              "$ref": "#/definitions/Product"
+            }
+          }
+        }
+      }
+    },
+    "/api/products/{id}": {
+      "parameters": [
+        {
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "description": "ID of product that we want to find",
+          "type": "string"
+        }
+      ],
+      "get": {
+        "tags": ["Products"],
+        "summary": "Find product by id",
+        "responses": {
+          "200": {
+            "description": "Success",
             "schema": {
               "$ref": "#/definitions/Product"
             }
