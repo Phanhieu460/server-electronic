@@ -65,10 +65,9 @@ router.post(
 
 // PROFILE
 router.get(
-  "/profile",
-  protectUser,
+  "/profile/:id",
   asyncHandler(async (req, res) => {
-    const user = await User.findById(req.user._id);
+    const user = await User.findById(req.params.id);
 
     if (user) {
       res.json({
@@ -91,10 +90,9 @@ router.get(
 
 // UPDATE PROFILE
 router.put(
-  "/profile",
-  protectUser,
+  "/profile/:id",
   asyncHandler(async (req, res) => {
-    const user = await User.findById(req.user._id);
+    const user = await User.findById(req.params.id);
 
     if (user) {
       user.firstName = req.body.firstName || user.firstName;

@@ -1,0 +1,258 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Electronic API",
+    "description": "Electronic API",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+
+  "tags": [
+    {
+      "name": "Users",
+      "description": "API for users in the system"
+    },
+    {
+      "name": "Products",
+      "description": "API for products in the system"
+    },
+    {
+      "name": "Blogs",
+      "description": "API for blogs in the system"
+    }
+  ],
+  "schemes": ["https://electronic-server.onrender.com"],
+  "consumes": ["application/json"],
+  "produces": ["application/json"],
+  "paths": {
+    "/api/users/login": {
+      "post": {
+        "tags": ["Users"],
+        "description": "Login user in system",
+        "parameters": [
+          {
+            "name": "user",
+            "in": "body",
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Login user in system",
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          }
+        }
+      }
+    },
+    "/api/users/register": {
+      "post": {
+        "tags": ["Users"],
+        "description": "Create new user in system",
+        "parameters": [
+          {
+            "name": "user",
+            "in": "body",
+            "description": "User that we want to create",
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "New user is created",
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          }
+        }
+      }
+    },
+    "/api/users/profile/{id}": {
+      "parameters": [
+        {
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "description": "ID of user that we want to find",
+          "type": "string"
+        }
+      ],
+      "get": {
+        "tags": ["Users"],
+        "summary": "Get profile with given ID",
+        "responses": {
+          "200": {
+            "description": "User is found",
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "Update profile with give ID",
+        "tags": ["Users"],
+
+        "responses": {
+          "200": {
+            "description": "Profile user is updated",
+            "schema": {
+              "$ref": "#/definitions/User"
+            },
+            "examples": {
+              "id": 38,
+              "title": "T-shirt"
+            }
+          }
+        }
+      }
+    },
+    "/api/products": {
+      "get": {
+        "tags": ["Products"],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Product in system",
+            "schema": {
+              "$ref": "#/definitions/Product"
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": ["Products"],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Product in system",
+            "schema": {
+              "$ref": "#/definitions/Product"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "User": {
+      "required": ["email", "password"],
+      "properties": {
+        "_id": {
+          "type": "string",
+          "uniqueItems": true
+        },
+        "email": {
+          "type": "string",
+          "uniqueItems": true
+        },
+        "password": {
+          "type": "string",
+          "uniqueItems": true
+        },
+        "firstName": {
+          "type": "string"
+        },
+        "lastName": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "address": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string"
+        }
+      }
+    },
+    "Product": {
+      "properties": {
+        "_id": {
+          "type": "string",
+          "uniqueItems": true
+        },
+        "name": {
+          "type": "string"
+        },
+        "sku": {
+          "type": "string"
+        },
+        "price": {
+          "type": "number"
+        },
+        "discount": {
+          "type": "number"
+        },
+        "news": {
+          "type": "boolean",
+          "enum": ["true", "false"]
+        },
+        "tag": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "category": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "variation": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "color": {
+                "type": "string"
+              },
+              "image": {
+                "type": "string"
+              },
+              "size": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "stock": {
+                      "type": "number"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "shortDescription": {
+          "type": "string"
+        },
+        "fullDescription": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

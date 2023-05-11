@@ -1,0 +1,18 @@
+[
+  {
+    "email": "customer1@gmail.com",
+    "password": "123456",
+    "firstName": "Customer",
+    "lastName": "1",
+    "phone": "0987587426",
+    "address": "Cau Giay - Ha Noi"
+  },
+  {
+    "email": "customer2@gmail.com",
+    "password": "123456",
+    "firstName": "Customer",
+    "lastName": "2",
+    "phone": "0975847256",
+    "address": "Cau Giay - Ha Noi"
+  }
+]
