@@ -9,7 +9,7 @@ router.get(
   "/",
   asyncHandler(async (req, res) => {
     try {
-      const pageSize = 12;
+      const pageSize = 10;
       const page = Number(req.query.pageNumber) || 1;
       const keyword = req.query.keyword
         ? {
@@ -20,10 +20,10 @@ router.get(
           }
         : {};
       const count = await Product.countDocuments({ ...keyword });
-      const products = await Product.find({ ...keyword });
-      // .limit(pageSize)
-      // .skip(pageSize * (page - 1))
-      // .sort({ _id: -1 });
+      const products = await Product.find({ ...keyword })
+        .limit(pageSize)
+        .skip(pageSize * (page - 1))
+        .sort({ _id: -1 });
       res.json({ products });
       // res.json({ products, page, pages: Math.ceil(count / pageSize) });
     } catch (err) {
