@@ -20,11 +20,12 @@ router.get(
           }
         : {};
       const count = await Product.countDocuments({ ...keyword });
-      const products = await Product.find({ ...keyword })
-        .limit(pageSize)
-        .skip(pageSize * (page - 1))
-        .sort({ _id: -1 });
-      res.json({ products, page, pages: Math.ceil(count / pageSize) });
+      const products = await Product.find({ ...keyword });
+      // .limit(pageSize)
+      // .skip(pageSize * (page - 1))
+      // .sort({ _id: -1 });
+      res.json({ products });
+      // res.json({ products, page, pages: Math.ceil(count / pageSize) });
     } catch (err) {
       res.status(err.statusCode || 500).send(err.message);
     }
