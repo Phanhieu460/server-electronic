@@ -44,7 +44,7 @@ const importData = async () => {
     // await Users.create(data);
     await Products.create(dataProducts);
     console.log("data successfully imported");
-    // to exit the process
+    // to exit the proces
     process.exit();
   } catch (error) {
     console.log("error", error);

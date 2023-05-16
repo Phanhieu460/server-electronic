@@ -4,12 +4,12 @@ const router = express.Router();
 const { admin, protect } = require("../middleware/auth");
 const Product = require("../models/Product");
 
-//GET ALL Product
+//GET ALL Produc
 router.get(
   "/",
   asyncHandler(async (req, res) => {
     try {
-      const pageSize = 24;
+      const pageSize = 12;
       const page = Number(req.query.pageNumber) || 1;
       const keyword = req.query.keyword
         ? {
@@ -20,10 +20,10 @@ router.get(
           }
         : {};
       const count = await Product.countDocuments({ ...keyword });
-      const products = await Product.find({ ...keyword });
-      // .limit(pageSize)
-      // .skip(pageSize * (page - 1))
-      // .sort({ _id: -1 });
+      const products = await Product.find({ ...keyword })
+        .limit(pageSize)
+        .skip(pageSize * (page - 1))
+        .sort({ _id: -1 });
       res.json({ products, page, pages: Math.ceil(count / pageSize) });
     } catch (err) {
       res.status(err.statusCode || 500).send(err.message);

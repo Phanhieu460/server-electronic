@@ -71,7 +71,7 @@
         ]
       }
     ],
-    "image": [
+    "images": [
       "https://www.dronenerds.com/media/product/271/dji-mini-3-pro-no-rc-camera-drone-4k-60fps-48mp-34-mins-flight-time-drone-only-cp-ma-00000485-01-dji-6de.jpg",
       "https://www.dronenerds.com/media/product/b95/dji-mini-3-pro-no-rc-camera-drone-4k-60fps-48mp-34-mins-flight-time-drone-only-cp-ma-00000485-01-dji-ab7.jpg",
       "https://www.dronenerds.com/media/product/fe7/dji-mini-3-pro-no-rc-camera-drone-4k-60fps-48mp-34-mins-flight-time-drone-only-cp-ma-00000485-01-dji-8ba.jpg",
@@ -79,5 +79,324 @@
     ],
     "shortDescription": "Under 249g | Tri-Directional Obstacle Sensing | 4K HDR Video.",
     "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+  },
+  {
+    "name": "DJI Mini 3 Pro Camera Drone 4K/60fps 48MP 34 Mins Flight Time Normal Controller",
+    "price": 760,
+    "discount": 0,
+    "new": false,
+    "category": ["Mini 3 Pro"],
+    "tag": ["Mini 3 Pro"],
+    "variation": [
+      {
+        "color": "white",
+        "image": "https://www.dronenerds.com/media/product/a1e/dji-mini-3-pro-camera-drone-4k-60fps-48mp-34-mins-flight-time-normal-controller-cp-ma-00000488-02-dji-1bd.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xl",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "https://www.dronenerds.com/media/product/a1e/dji-mini-3-pro-camera-drone-4k-60fps-48mp-34-mins-flight-time-normal-controller-cp-ma-00000488-02-dji-1bd.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 9
+          },
+          {
+            "name": "xxl",
+            "stock": 1
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "https://www.dronenerds.com/media/product/a1e/dji-mini-3-pro-camera-drone-4k-60fps-48mp-34-mins-flight-time-normal-controller-cp-ma-00000488-02-dji-1bd.jpg",
+
+        "size": [
+          {
+            "name": "x",
+            "stock": 1
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 0
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://www.dronenerds.com/media/product/a1e/dji-mini-3-pro-camera-drone-4k-60fps-48mp-34-mins-flight-time-normal-controller-cp-ma-00000488-02-dji-1bd.jpg",
+      "https://www.dronenerds.com/media/product/2bb/dji-mini-3-pro-camera-drone-4k-60fps-48mp-34-mins-flight-time-normal-controller-cp-ma-00000488-02-dji-36c.jpg",
+      "https://www.dronenerds.com/media/product/300/dji-mini-3-pro-camera-drone-4k-60fps-48mp-34-mins-flight-time-normal-controller-cp-ma-00000488-02-dji-400.jpg"
+    ],
+    "shortDescription": "Under 249g | Tri-Directional Obstacle Sensing | 4K HDR Video",
+    "fullDescription": "Remarkably Mini The mini-sized, mega-capable DJI Mini 3 Pro is just as powerful as it is portable. Weighing less than 249 g and with upgraded safety features, it's not only regulation-friendly, it's also the safest in its series. With a 1/1.3-inch sensor and top-tier features, it redefines what it means to fly Mini. Packed With Performance Mini 3 Pro sports a completely new look that is optimized to get more out of every flight. With larger propellers, an aerodynamic body tilt, and a powerful obstacle sensing system, the streamlined design allows for increased flight time and safety. The reimagined gimbal offers a wider rotation range for low-angle shots and True Vertical Shooting, allowing endless creative opportunities. Every aspect of this facelift has been carefully considered to take Mini to never-before-seen heights."
+  },
+  {
+    "name": "DJI Mini 3 (DJI RC) Camera Drone 4k HDR 38-min Flight Time Vertical Shooting",
+    "price": 600,
+    "discount": 0,
+    "new": false,
+    "category": ["Mini 3"],
+    "tag": ["Mini 3"],
+    "variation": [
+      {
+        "color": "white",
+        "image": "https://www.dronenerds.com/media/product/6a5/dji-mini-3-dji-rc-camera-drone-4k-hdr-38-min-flight-time-vertical-shooting-cp-ma-00000587-01-dji-382.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xl",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "https://www.dronenerds.com/media/product/6a5/dji-mini-3-dji-rc-camera-drone-4k-hdr-38-min-flight-time-vertical-shooting-cp-ma-00000587-01-dji-382.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 9
+          },
+          {
+            "name": "xxl",
+            "stock": 1
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "https://www.dronenerds.com/media/product/6a5/dji-mini-3-dji-rc-camera-drone-4k-hdr-38-min-flight-time-vertical-shooting-cp-ma-00000587-01-dji-382.jpg",
+
+        "size": [
+          {
+            "name": "x",
+            "stock": 1
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 0
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://www.dronenerds.com/media/product/6a5/dji-mini-3-dji-rc-camera-drone-4k-hdr-38-min-flight-time-vertical-shooting-cp-ma-00000587-01-dji-382.jpg",
+      "https://www.dronenerds.com/media/product/4c9/dji-mini-3-dji-rc-camera-drone-4k-hdr-38-min-flight-time-vertical-shooting-cp-ma-00000587-01-dji-21c.jpg",
+      "https://www.dronenerds.com/media/product/1f4/dji-mini-3-dji-rc-camera-drone-4k-hdr-38-min-flight-time-vertical-shooting-cp-ma-00000587-01-dji-fd0.jpg"
+    ],
+    "shortDescription": "So Fly.",
+    "fullDescription": "Remarkably Mini The mini-sized, mega-capable DJI Mini 3 Pro is just as powerful as it is portable. Weighing less than 249 g and with upgraded safety features, it's not only regulation-friendly, it's also the safest in its series. With a 1/1.3-inch sensor and top-tier features, it redefines what it means to fly Mini. Packed With Performance Mini 3 Pro sports a completely new look that is optimized to get more out of every flight. With larger propellers, an aerodynamic body tilt, and a powerful obstacle sensing system, the streamlined design allows for increased flight time and safety. The reimagined gimbal offers a wider rotation range for low-angle shots and True Vertical Shooting, allowing endless creative opportunities. Every aspect of this facelift has been carefully considered to take Mini to never-before-seen heights."
+  },
+  {
+    "name": "DJI Mavic 3 Pro (DJI RC)",
+    "price": 2000,
+    "discount": 5,
+    "new": false,
+    "category": ["Mavic 3 Pro"],
+    "tag": ["Mavic 3 Pro"],
+    "variation": [
+      {
+        "color": "white",
+        "image": "https://stormsend1.djicdn.com/tpc/uploads/carousel/image/8641c510df5d6e6d0a34cd3dd78caba8@ultra.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xl",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "https://stormsend1.djicdn.com/tpc/uploads/carousel/image/8641c510df5d6e6d0a34cd3dd78caba8@ultra.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 9
+          },
+          {
+            "name": "xxl",
+            "stock": 1
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "https://stormsend1.djicdn.com/tpc/uploads/carousel/image/8641c510df5d6e6d0a34cd3dd78caba8@ultra.jpg",
+
+        "size": [
+          {
+            "name": "x",
+            "stock": 1
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 0
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://stormsend1.djicdn.com/tpc/uploads/carousel/image/8641c510df5d6e6d0a34cd3dd78caba8@ultra.jpg",
+      "https://stormsend1.djicdn.com/tpc/uploads/carousel/image/c54c054b1e2f6710b44e70a34eab81bf@ultra.jpg",
+      "https://stormsend1.djicdn.com/tpc/uploads/carousel/image/edfd8c715c25520a76700630fef6b8a8@ultra.jpg",
+      "https://stormsend1.djicdn.com/tpc/uploads/carousel/image/05dcf9d62bffe45e38f82391e9a9e012@ultra.jpg"
+    ],
+    "shortDescription": "4/3 CMOS Hasselblad Camera. Dual Tele Cameras. 43-Min Max Flight Time. Omnidirectional Obstacle Sensing. 15km HD Video Transmission",
+    "fullDescription": "Remarkably Mini The mini-sized, mega-capable DJI Mini 3 Pro is just as powerful as it is portable. Weighing less than 249 g and with upgraded safety features, it's not only regulation-friendly, it's also the safest in its series. With a 1/1.3-inch sensor and top-tier features, it redefines what it means to fly Mini. Packed With Performance Mini 3 Pro sports a completely new look that is optimized to get more out of every flight. With larger propellers, an aerodynamic body tilt, and a powerful obstacle sensing system, the streamlined design allows for increased flight time and safety. The reimagined gimbal offers a wider rotation range for low-angle shots and True Vertical Shooting, allowing endless creative opportunities. Every aspect of this facelift has been carefully considered to take Mini to never-before-seen heights."
+  },
+  {
+    "name": "DJI Care Refresh 2-Year Plan (DJI Mavic 3)",
+    "price": 400,
+    "discount": 12,
+    "new": false,
+    "category": ["Mavic 3"],
+    "tag": ["Mavic 3"],
+    "variation": [
+      {
+        "color": "white",
+        "image": "https://stormsend1.djicdn.com/tpc/uploads/photo/image/184cd5d94d4236bb09260bda4f0d0481@large.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xl",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "https://stormsend1.djicdn.com/tpc/uploads/photo/image/184cd5d94d4236bb09260bda4f0d0481@large.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 9
+          },
+          {
+            "name": "xxl",
+            "stock": 1
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "https://stormsend1.djicdn.com/tpc/uploads/photo/image/184cd5d94d4236bb09260bda4f0d0481@large.jpg",
+
+        "size": [
+          {
+            "name": "x",
+            "stock": 1
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 0
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://stormsend1.djicdn.com/tpc/uploads/photo/image/184cd5d94d4236bb09260bda4f0d0481@large.jpg"
+    ],
+    "shortDescription": "2 or 3 Low-Cost Replacements. Flyaway, Water, and Collision Coverage. 3-Day Average Replacement Time. Free Shipping",
+    "fullDescription": "Remarkably Mini The mini-sized, mega-capable DJI Mini 3 Pro is just as powerful as it is portable. Weighing less than 249 g and with upgraded safety features, it's not only regulation-friendly, it's also the safest in its series. With a 1/1.3-inch sensor and top-tier features, it redefines what it means to fly Mini. Packed With Performance Mini 3 Pro sports a completely new look that is optimized to get more out of every flight. With larger propellers, an aerodynamic body tilt, and a powerful obstacle sensing system, the streamlined design allows for increased flight time and safety. The reimagined gimbal offers a wider rotation range for low-angle shots and True Vertical Shooting, allowing endless creative opportunities. Every aspect of this facelift has been carefully considered to take Mini to never-before-seen heights."
   }
 ]
