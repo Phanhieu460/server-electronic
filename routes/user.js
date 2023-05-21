@@ -2,7 +2,8 @@ const express = require("express");
 const router = express.Router();
 const { protectUser } = require("../middleware/user");
 const asyncHandler = require("express-async-handler");
-const generateToken = require("../utils/generateToken");
+const { generateToken, refreshToken } = require("../utils/generateToken");
+const tokenList = {};
 
 require("dotenv").config();
 
@@ -13,19 +14,46 @@ router.post(
   "/login",
   asyncHandler(async (req, res) => {
     const { email, password } = req.body;
-    console.log(email, password, req.body);
     const user = await User.findOne({ email });
-    console.log(user);
+
+    tokenList[refreshToken] = user;
+
     if (user && (await user.matchPassword(password))) {
       res.json({
         _id: user._id,
         email: user.email,
         token: generateToken(user._id),
+        refreshToken: refreshToken(user._id),
         createdAt: user.createdAt,
       });
     } else {
       res.status(401);
       throw new Error("Email hoặc mật khẩu không đúng!");
+    }
+  })
+);
+
+router.post(
+  "/refreshToken",
+  asyncHandler(async (req, res) => {
+    const { refreshToken } = req.body;
+
+    if (refreshToken && refreshToken in tokenList) {
+      try {
+        await jwt.verify(refreshToken, process.env.REFRESH_TOKEN_SECRET);
+        const user = tokenList[refreshToken];
+
+        const token = generateToken(user._id);
+        res.status(200).json({ token, refreshToken: refreshToken(user._id) });
+      } catch (error) {
+        res.status(403).json({
+          message: "Invalid refresh token",
+        });
+      }
+    } else {
+      res.status(400).json({
+        message: "Invalid request",
+      });
     }
   })
 );
