@@ -116,13 +116,14 @@ router.post(
 router.post(
   "/search",
   asyncHandler(async (req, res) => {
+    const { search } = req.query;
+    const rgx = (pattern) => new RegExp(`.*${pattern}.*`);
+    const searchRgx = rgx(search);
     try {
       const products = await Product.find({
-        or: [
-          { name: { contains: req.query.search } },
-          { tag: { contains: req.query.search } },
-        ],
+        name: { $regex: searchRgx, $options: "i" },
       });
+
       if (products) {
         res.status(200).json({
           success: true,
