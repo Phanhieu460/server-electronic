@@ -117,17 +117,17 @@ router.post(
   "/search",
   asyncHandler(async (req, res) => {
     try {
-      const result = await Product.find({
+      const products = await Product.find({
         or: [
           { name: { contains: req.query.search } },
           { tag: { contains: req.query.search } },
         ],
       });
-      if (result) {
+      if (products) {
         res.status(200).json({
           success: true,
-          result,
-          message: "Search  successfully",
+          products,
+          message: "Search successfully",
         });
       } else {
         res.status(401).json({
