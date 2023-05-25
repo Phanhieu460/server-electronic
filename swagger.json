@@ -58,6 +58,22 @@
       "post": {
         "tags": ["Users"],
         "description": "Create new user in system",
+        "parameters": [
+          {
+            "name": "email",
+            "in": "path",
+            "type": "string",
+            "description": "The email for login",
+            "required": true
+          },
+          {
+            "name": "password",
+            "in": "path",
+            "type": "string",
+            "description": "",
+            "required": true
+          }
+        ],
         "produces": ["application/json"],
         "responses": {
           "200": {
@@ -265,6 +281,73 @@
         },
         "fullDescription": {
           "type": "string"
+        }
+      }
+    },
+    "Order": {
+      "properties": {
+        "_id": {
+          "type": "string",
+          "uniqueItems": true
+        },
+        "user": {
+          "$ref": "#/definitions/User",
+          "uniqueItems": true
+        },
+        "orderItems": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "uniqueItems": true
+              },
+              "quantity": {
+                "type": "number",
+                "uniqueItems": true
+              },
+              "image": {
+                "type": "array",
+                "uniqueItems": true
+              },
+              "product": {
+                "uniqueItems": true,
+                "$ref": "#/definitions/Product"
+              }
+            }
+          }
+        },
+        "shippingAddress": {
+          "address": {
+            "type": "string",
+            "uniqueItems": true
+          },
+          "city": {
+            "type": "string",
+            "uniqueItems": true
+          },
+          "phone": {
+            "type": "string",
+            "uniqueItems": true
+          }
+        },
+        "paymentMethod": {
+          "type": "string"
+        },
+        "paymentResult": {
+          "id": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "update_time": {
+            "type": "string"
+          },
+          "email_address": {
+            "type": "string"
+          }
         }
       }
     }

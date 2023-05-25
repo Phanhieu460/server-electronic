@@ -32,8 +32,8 @@ const UserSchema = new Schema({
 UserSchema.set("timestamps", true);
 
 // Login
-UserSchema.methods.matchPassword = async function (enterPassword) {
-  return await bcrypt.compare(enterPassword, this.password);
+UserSchema.methods.matchPassword = async (password, userPassword) => {
+  return await bcrypt.compare(password, userPassword);
 };
 
 // Register

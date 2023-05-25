@@ -13,22 +13,26 @@ const User = require("../models/User");
 router.post(
   "/login",
   asyncHandler(async (req, res) => {
-    const { email, password } = req.body;
-    const user = await User.findOne({ email });
+    try {
+      const user = User.findOne({ email: req.body.email });
+      console.log(user);
 
-    tokenList[refreshToken] = user;
+      tokenList[refreshToken] = user;
 
-    if (user && (await user.matchPassword(password))) {
-      res.json({
-        _id: user._id,
-        email: user.email,
-        token: generateToken(user._id),
-        refreshToken: refreshToken(user._id),
-        createdAt: user.createdAt,
-      });
-    } else {
-      res.status(401);
-      throw new Error("Email hoặc mật khẩu không đúng!");
+      if (user && (await user.matchPassword(password, user.password))) {
+        res.json({
+          _id: user._id,
+          email: user.email,
+          token: generateToken(user._id),
+          refreshToken: refreshToken(user._id),
+          createdAt: user.createdAt,
+        });
+      } else {
+        res.status(401);
+        throw new Error("Email hoặc mật khẩu không đúng!");
+      }
+    } catch (error) {
+      res.status(400).json({ error });
     }
   })
 );
@@ -64,7 +68,7 @@ router.post(
   asyncHandler(async (req, res) => {
     const { firstName, lastName, email, password, image } = req.body;
 
-    const userExists = await User.findOne({ email });
+    const userExists = User.findOne({ email });
 
     if (userExists) {
       res.status(400);
@@ -84,6 +88,7 @@ router.post(
         _id: user._id,
         email: user.email,
         token: generateToken(user._id),
+        refreshToken: refreshToken(user._id),
       });
     } else {
       res.status(400);
@@ -95,8 +100,9 @@ router.post(
 // PROFILE
 router.get(
   "/profile/:id",
+  protectUser,
   asyncHandler(async (req, res) => {
-    const user = await User.findById(req.params.id);
+    const user = User.findById(req.params.id);
 
     if (user) {
       res.json({
@@ -120,6 +126,7 @@ router.get(
 // UPDATE PROFILE
 router.put(
   "/profile/:id",
+  protectUser,
   asyncHandler(async (req, res) => {
     const user = await User.findById(req.params.id);
 
@@ -144,6 +151,7 @@ router.put(
         address: updatedUser.address,
         createdAt: updatedUser.createdAt,
         token: generateToken(updatedUser._id),
+        refreshToken: refreshToken(updatedUser._id),
       });
     } else {
       res.status(404);

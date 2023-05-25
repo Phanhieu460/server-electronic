@@ -27,8 +27,6 @@ const OrderSchema = new Schema({
   },
   paymentMethod: {
     type: String,
-    required: true,
-    default: "Paypal",
   },
   paymentResult: {
     id: { type: String },
