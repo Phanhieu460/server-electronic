@@ -121,13 +121,17 @@ router.post(
     const searchRgx = rgx(search);
     try {
       const products = await Product.find({
-        name: { $regex: searchRgx, $options: "i" },
+        $or: [
+          { name: { $regex: searchRgx, $options: "i" } },
+          { tag: { $regex: searchRgx, $options: "i" } },
+        ],
       });
 
       if (products) {
         res.status(200).json({
           success: true,
           products,
+          count: products.length,
           message: "Search successfully",
         });
       } else {
