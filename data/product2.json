@@ -1,0 +1,368 @@
+[
+  {
+    "name": "Tello UAV Quadcopter HD72013min Flight Time Education Scratch Programming Toy",
+    "price": 99,
+    "discount": 0,
+    "new": true,
+    "category": ["Tello"],
+    "tag": ["Tello"],
+    "variation": [
+      {
+        "color": "white",
+        "image": "https://www.dronenerds.com/media/product/a13/tello-uav-quadcopter-hd72013min-flight-time-education-scratch-programming-toy-cp-pt-00000252-01-powered-by-dji-191.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://www.dronenerds.com/media/product/a13/tello-uav-quadcopter-hd72013min-flight-time-education-scratch-programming-toy-cp-pt-00000252-01-powered-by-dji-191.jpg"
+    ],
+    "shortDescription": "Auto Takeoff/Landing: Lift off or land with a single tap. Low Battery Protection: Alerts go off when your battery gets low. Failsafe Protection: Land safely, even if you lose connection. Vision Positioning System: Downward-facing camera that facilitates precise hovering",
+    "fullDescription": "Built in partnership with Ryze Tech, the DJI Tello Quadcopter is designed to be a cute, fun, and educational quadcopter drone. Its tiny form factor and smart Intel processor enable it to perform exciting aerial tricks on a whim, all through smartphone control. Download the free Tello app and get going, with intuitive controls for entertaining flying maneuvers. The included battery will power up to 13 minutes of flight on a full charge.. At the front of the Tello is a camera capable of streaming 720p video back to your smartphone and capturing 5-megapixel photos in flight. The intelligent flight processor can coordinate camera movements for some custom shooting angles. The vision positioning system uses a downward-facing camera to ensure stable hovering when desired. Aside from the previously mentioned battery, the Tello also includes four pairs of propellers and propeller guards. Multicolored top plates are available separately to customize the look of your drone."
+  },
+  {
+    "name": "DJI Air 2S | 5.4K Video 20MP Photo Camera Drone",
+    "price": 980,
+    "discount": 5,
+    "new": false,
+    "category": ["Air 2S"],
+    "tag": ["Air 2S"],
+    "variation": [
+      {
+        "color": "red",
+        "image": "https://www.dronenerds.com/media/product/fc2/dji-air-2s-5-4k-video-20mp-photo-camera-drone-cp-ma-00000354-01-dji-765.png",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xl",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "color": "white",
+        "image": "https://www.dronenerds.com/media/product/fc2/dji-air-2s-5-4k-video-20mp-photo-camera-drone-cp-ma-00000354-01-dji-765.png",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "https://www.dronenerds.com/media/product/fc2/dji-air-2s-5-4k-video-20mp-photo-camera-drone-cp-ma-00000354-01-dji-765.png",
+        "size": [
+          {
+            "name": "x",
+            "stock": 1
+          },
+          {
+            "name": "m",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://www.dronenerds.com/media/product/fc2/dji-air-2s-5-4k-video-20mp-photo-camera-drone-cp-ma-00000354-01-dji-765.png",
+      "https://www.dronenerds.com/media/product/c71/dji-air-2s-5-4k-video-20mp-photo-camera-drone-cp-ma-00000354-01-dji-9d6.jpg",
+      "https://www.dronenerds.com/media/product/607/dji-air-2s-5-4k-video-20mp-photo-camera-drone-cp-ma-00000354-01-dji-584.jpg",
+      "https://www.dronenerds.com/media/product/2b8/dji-air-2s-5-4k-video-20mp-photo-camera-drone-cp-ma-00000354-01-dji-2c6.jpg",
+      "https://www.dronenerds.com/media/product/458/dji-air-2s-5-4k-video-20mp-photo-camera-drone-cp-ma-00000354-01-dji-ea7.jpg"
+    ],
+    "shortDescription": "Featuring a 1-inch CMOS sensor, powerful autonomous functions, and a compact body weighing less than 600 g, DJI Air 2S is the ultimate drone for aerial photographers on the move.",
+    "fullDescription": "Featuring a 1-inch CMOS sensor, powerful autonomous functions, and a compact body weighing less than 600 g, DJI Air 2S is the ultimate drone for aerial photographers on the move. Take this all-in-one aerial powerhouse along anywhere to experience and record your world in stunning detail. Equipped with a 1-inch image sensor and large 2.4μm pixels, DJI Air 2S is capable of 5.4K/30fps and 4K/60fps video. Capture any moment with the rich clarity and authentic color tones it deserves for results that amaze. 20 MP. 5.4K/30fps + 4K/60fps Video. 1-inch CMOS Sensor. 2.4μm Pixels. Turn On the Night. Capture the allure of the world, even as it darkens. Thanks to a high dynamic range, high resolution, and accurate color reproduction, even low-light scenes are sharp and vibrant. "
+  },
+  {
+    "name": "DJI Avata Pro-View Combo (DJI Goggles 2) FPV Drone 4k 155° FOV Propeller Guard",
+    "price": 1400,
+    "discount": 0,
+    "new": true,
+    "category": ["Avata"],
+    "tag": ["Avata"],
+    "variation": [
+      {
+        "color": "red",
+        "image": "https://www.dronenerds.com/media/product/9bf/dji-avata-pro-view-combo-dji-goggles-2-fpv-drone-4k-155-fov-propeller-guard-cp-fp-00000129-01-dji-352.png",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xl",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "color": "white",
+        "image": "https://www.dronenerds.com/media/product/9bf/dji-avata-pro-view-combo-dji-goggles-2-fpv-drone-4k-155-fov-propeller-guard-cp-fp-00000129-01-dji-352.png",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "https://www.dronenerds.com/media/product/9bf/dji-avata-pro-view-combo-dji-goggles-2-fpv-drone-4k-155-fov-propeller-guard-cp-fp-00000129-01-dji-352.png",
+        "size": [
+          {
+            "name": "x",
+            "stock": 1
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xxl",
+            "stock": 15
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://www.dronenerds.com/media/product/9bf/dji-avata-pro-view-combo-dji-goggles-2-fpv-drone-4k-155-fov-propeller-guard-cp-fp-00000129-01-dji-352.png",
+      "https://www.dronenerds.com/media/product/128/dji-avata-pro-view-combo-dji-goggles-2-fpv-drone-4k-155-fov-propeller-guard-cp-fp-00000129-01-dji-c7e.jpg",
+      "https://www.dronenerds.com/media/product/ce3/dji-avata-pro-view-combo-dji-goggles-2-fpv-drone-4k-155-fov-propeller-guard-cp-fp-00000129-01-dji-03d.jpg"
+    ],
+    "shortDescription": "Includes DJI Goggles 2 and DJI RC Motion 2, providing an immersive sensory experience with intuitive, kinesthetic control.",
+    "fullDescription": "Compact and lightweight, DJI Avata is nimble in tight spaces. Every aspect of its design was made for you to be bold. The built-in propeller guard means that if Avata comes in contact with an object, it can bounce back, stay in the air, and can keep on flying. Enjoy next-level comfort and convenience with DJI Goggles 2. Now smaller, lighter, and equipped with Micro-OLED screens, so you experience outstanding clarity as you navigate the sky. DJI Avata also supports DJI FPV Goggles V2. With the DJI Motion Controller, intuitive flight is in your hands. Squeeze the trigger and bolt forward or turn a corner with the swivel of your wrist. The controls are easy to use and provide a totally unique way to fly. DJI Goggles 2 are compact, and ultra-portable. The foldable antenna and lightweight design make them easy to store, comfortable to wear, and suitable for long-term use. With a two-hour battery life and super-fast charging speeds, you can always be ready for immersive flight. Feel every flight with DJI Avata and Goggles 2. The two HD Micro-OLED screens offer stunning clarity and a refresh rate of up to 100 Hz. The goggles present a smooth full-screen live feed in front of your eyes, creating an immersive world of limitless potential. DJI Goggles 2 offer diopter adjustment from +2.0 D to -8.0 D for optimized viewing and comfort. Lock the adjustment knob to fix the diopter in place and prevent accidental touches during use or storage. "
+  },
+  {
+    "name": "DJI Goggles 2",
+    "price": 650,
+    "discount": 5,
+    "new": false,
+    "category": ["Avata"],
+    "tag": ["Avata"],
+    "variation": [
+      {
+        "color": "brown",
+        "image": "https://www.dronenerds.com/media/product/bfd/dji-goggles-2-cp-fp-00000056-02-dji-a99.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 1
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xxl",
+            "stock": 5
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://www.dronenerds.com/media/product/bfd/dji-goggles-2-cp-fp-00000056-02-dji-a99.jpg",
+      "https://www.dronenerds.com/media/product/f67/dji-goggles-2-cp-fp-00000056-02-dji-a22.jpg",
+      "https://www.dronenerds.com/media/product/688/dji-goggles-2-cp-fp-00000056-02-dji-e9a.jpg",
+      "https://www.dronenerds.com/media/product/597/dji-goggles-2-cp-fp-00000056-02-dji-c13.jpg"
+    ],
+    "shortDescription": "Experience the thrill and immersion of FPV piloting and the fun of home theater viewing with the Goggles 2 Headset from DJI",
+    "fullDescription": "Experience the thrill and immersion of FPV piloting and the fun of home theater viewing with the Goggles 2 Headset from DJI. Compatible with the DJI Avata and O3 Air Unit, the Goggles 2 displays first-person drone footage or streaming videos through dual Full HD 1080p Micro-OLED screens with a refresh rate of up to 100 MHz, for true-to-life color and smooth, realistic playback. Real-time drone footage is made stable during flight thanks to a host of technologies, such as dual-band auto-switching Wi-Fi 5 (802.11ac) and DJI's low-latency video transmission. The Goggles 2 can be worn by nearly anyone, thanks to the included eyeglass frames and adjustable diopter that can be locked into place. Smooth Video Transmission. Video is received from your drone over dual-band 2.4/5.8 GHz Wi-Fi 5 (802.11ac) using the two foldable antennas on the Goggles 2. To help ensure a smooth and stable signal, the Goggles 2 will auto-switch between frequencies as needed. It also employs a host of technologies as part of its O3+ transmission system, including an independent video processing chip, SyncSmooth technology, and algorithms that are optimized to reduce dropped frames. The result is vibrant 1080p video with a 30 ms response time. Doubles as a Home Theater. When you're not flying, you can still use the DJI Goggles 2 to have fun. You can stream TV shows, movies, and online videos to the headset over your home's Wi-Fi network using DLNA. A built-in power amp and 3.5mm audio port synchronizes the video and audio to deliver a realistic cinematic experience.. Lightweight and Comfortable. With an up to 2-hour battery life, it's essential that the Goggles 2 remain comfortable. DJI accomplishes this with soft, replaceable foam padding around the edges of the Goggles 2. The padding material and shape are breathable and also help reduce light leakage, maximizing the overall FPV immersion.. Adjustable Diopter. To maximize the number of people that can use the Goggles 2, DJI made sure to allow for diopter adjustment. The Goggles 2 diopter can be adjusted from +2.0 to -8.0, which is a wide range of values that represent the spacing of your eyes. Once you dial in the diopter value that provides the clearest and sharpest image, you can lock it in place to prevent accidental changes from handing the headset.. Fly App. The DJI Goggles 2 works with the Fly mobile app, letting them connect to a smartphone to either share the piloting experience with someone else or use it as a tool to teach other pilots."
+  },
+  {
+    "name": "DJI Goggles Integra",
+    "price": 499,
+    "discount": 5,
+    "new": false,
+    "category": ["Avata"],
+    "tag": ["Avata"],
+    "variation": [
+      {
+        "color": "blue",
+        "image": "https://www.dronenerds.com/media/product/a95/dji-goggles-integra-cp-fp-00000113-01-dji-41a.png",
+        "size": [
+          {
+            "name": "x",
+            "stock": 1
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xxl",
+            "stock": 5
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://www.dronenerds.com/media/product/a95/dji-goggles-integra-cp-fp-00000113-01-dji-41a.png",
+      "https://www.dronenerds.com/media/product/8ef/dji-goggles-integra-cp-fp-00000113-01-dji-35e.jpg",
+      "https://www.dronenerds.com/media/product/11a/dji-goggles-integra-cp-fp-00000113-01-dji-21c.jpg",
+      "https://www.dronenerds.com/media/product/2b3/dji-goggles-integra-cp-fp-00000113-01-dji-7b8.jpg"
+    ],
+    "shortDescription": "Features an integrated design, with two 1080p Micro-OLED screens with up to 100Hz refresh rate and ultra-low-latency video transmission.",
+    "fullDescription": "DJI Goggles Integra features an integrated design, adopts two 1080p Micro-OLED screens with up to 100Hz refresh rate, and supports ultra-low-latency video transmission, delivering a more immersive flight experience. Combined for Convenience. DJI Goggles Integra combines headband and battery into one, getting rid of pesky cables. Light and compact, the goggles weigh about 410 g with foldable antennas. And with a two-hour battery life, you can fly comfortably and worry-free for extended flights.. HD Display, Stunning Colors. DJI Goggles Integra has two 1080p Micro-OLED screens to deliver true-to-life colors and highlight-shadow details. Enjoy brilliant views with a screen brightness of up to 700 nits and a refresh rate of up to 100 Hz. DJI goggles Integra is also TÜV Rheinland Low Blue Light Certified, so you can rest assured your flight is easy on the eyes.. Ultra-Low Latency, Stable Video Transmission. DJI Goggles Integra adopts DJI O3+ video transmission, boasting latency as low as 30 ms. The goggles automatically switch frequency bands and possess strong anti-interference capabilities so that you can soar uninterrupted.. Share the Sky. Connect to the DJI Fly app and display a real-time camera view to your goggles and smartphone so you can share your view."
+  },
+  {
+    "name": "DJI FPV Drone Only",
+    "price": 510,
+    "discount": 5,
+    "new": false,
+    "category": ["FPV"],
+    "tag": ["FPV"],
+    "variation": [
+      {
+        "color": "blue",
+        "image": "https://www.dronesdirect.co.uk/Images/CP.FP.00000009.02_1_Supersize.jpg?v=3",
+        "size": [
+          {
+            "name": "x",
+            "stock": 1
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xxl",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "color": "orange",
+        "image": "https://www.dronesdirect.co.uk/Images/CP.FP.00000009.02_1_Supersize.jpg?v=3",
+        "size": [
+          {
+            "name": "x",
+            "stock": 1
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xxl",
+            "stock": 5
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://www.dronesdirect.co.uk/Images/CP.FP.00000009.02_1_Supersize.jpg?v=3",
+      "https://www.dronesdirect.co.uk/Images/CP.FP.00000009.02_2_Supersize.jpg?v=3",
+      "https://www.dronesdirect.co.uk/Images/CP.FP.00000009.02_3_Supersize.jpg?v=3",
+      "https://www.dronesdirect.co.uk/Images/CP.FP.00000009.02_4_Supersize.jpg?v=3"
+    ],
+    "shortDescription": "Built In Camera: Yes. Video Quality: 4K @ 60fps. Weight: 795g. Flight Time: Up to 20 Minutes. GPS: Yes",
+    "fullDescription": "Fly through the sky in ways that seem impossible. With this immersive and intuitive aerial platform, get ready to go into the beyond. DJI FPV stands out in more ways than one. Sporting front LEDs and aircraft arm lights with customizable-color, DJI FPV allows pilots to make their aircraft as unique as they are. Whether you’re a seasoned FPV pilot or a complete beginner, DJI FPV offers three intuitive flight modes that let anyone fly confidently from day one. Get the dynamic look of FPV footage easily in S mode. This hybrid flight mode combines the freedom of flying manually with the simplified controls of previous DJI drones. Ideal for new users, N mode offers immersive flight with traditional drone flight controls along with DJI safety features like obstacle sensing. Fly in M mode for complete, limitless control and the full FPV flight experience. Customize parameters and enjoy flight and footage unlike anything else. Take your flight experience to new heights with the DJI Motion Controller. This compact device allows the aircraft to maneuver based on your natural hand motions. This isn’t just an FPV innovation. It’s an entirely new way to fly. Even for experts, manual FPV flight can be intimidating. That’s why DJI FPV comes with an emergency brake and hover feature. Simply press this button on the remote controller while flying in any mode, at any speed, and the aircraft will stop and hover stably within a few seconds. An auxiliary bottom light, Smart Return to Home (RTH), Low Battery RTH, and forward and downward obstacle sensing are all integrated into DJI FPV to help ensure a safe flight, even at high speeds. Powerful propulsion capabilities combined with a 150° super-wide FOV provide an unrivaled view. 4x Slow Motion, RockSteady stabilization, and distortion correction give pilots even smoother, more dramatic results."
+  },
+  {
+    "name": "Yuneec Typhoon H3 Drone with Leica Camera",
+    "price": 2099,
+    "discount": 0,
+    "new": true,
+    "category": ["Yuneec"],
+    "tag": ["Yuneec"],
+    "variation": [
+      {
+        "color": "blue",
+        "image": "https://www.dronesdirect.co.uk/Images/YUNTYH3UK_1_Supersize.jpg?v=2",
+        "size": [
+          {
+            "name": "x",
+            "stock": 1
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xxl",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "color": "orange",
+        "image": "https://www.dronesdirect.co.uk/Images/YUNTYH3UK_1_Supersize.jpg?v=2",
+        "size": [
+          {
+            "name": "x",
+            "stock": 1
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xxl",
+            "stock": 5
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://www.dronesdirect.co.uk/Images/YUNTYH3UK_1_Supersize.jpg?v=2",
+      "https://www.dronesdirect.co.uk/Images/YUNTYH3UK_2_Supersize.jpg?v=2",
+      "https://www.dronesdirect.co.uk/Images/YUNTYH3UK_3_Supersize.jpg?v=2",
+      "https://www.dronesdirect.co.uk/Images/YUNTYH3UK_6_Supersize.jpg?v=2",
+      "https://www.dronesdirect.co.uk/Images/YUNTYH3UK_7_Supersize.jpg?v=2",
+      "https://www.dronesdirect.co.uk/Images/YUNTYH3UK_8_LargeProductImage.jpg?v=1"
+    ],
+    "shortDescription": "New Leica camera with 1 Sensor. 4K / 20MP. Two Operator Team Mode. Data Privacy. 6 Rotor Safety & Stability. 1 x Yuneec Typhoon H3 Hexacopter. 1 x ION L1 Pro Camera. 1 x ST16S Remote Controller",
+    "fullDescription": "With the Typhoon H3 and the ION L1 Pro camera developed in partnership with Leica, Yuneec and Leica Camera AG bring the best of their respective worlds together to bring Leica photography to the skies. The H3 has been specially developed for photographers and videographers who want to rediscover the world from above in a new look. Thanks to the use of high-quality materials and the implementation of a wide range of flight functions in combination with a 1 CMOS camera sensor, it offers you a sophisticated and perfectly coordinated overall system for you to realize your photographic ambitions. The safe and reliable hexacopter design featuring 6 rotors remains stable in the air – even when it's windy outside. Furthermore, with the aid of the stabilized 3-axis gimbal, you can take perfectly stabilized and sharp 20 MP photos and up to 4K videos at 60 frames per second. User-defined image mode and focus settings, lossless digital zoom and superior image quality make the ION L1 Pro the camera of choice in its class for all aspects of aerial photography. A wide range of functions that come in the top-level quality for which Leica is known enable you to fully tap into the photographic potential of the ION L1 Pro. In accordance to Leica's Lead Motiv Das Wesentliche, functions were aligned with what is useful and creates a benefit. The software works now like a photographer is used to. Semi Auto modes, ISO increments or EV intervals were made to feel like a regular camera. The Cruise Control feature keeps the speed of the drone constant, so that you can fully concentrate on your camera shot. With the integrated 3-axis gimbal and the drone's retractable landing gear, the camera can rotate through 360° unrestrictedly and produce flowing panoramic shots. The components of the H3 and the L1 Pro are precisely matched to one another and make it possible to take highly detailed, brilliant pictures from the air with the legendary Leica look. Thanks to elaborate analyses and suitably effective stray light suppression, the camera delivers the best possible image results – especially in critical light situations. The technical versatility of the camera offers you a wide range of options for your photographic journey – from automatic exposure bracketing and semi-automatic through to wide dynamic range. Together with Leica, we implemented Y-Log for professional and easy integration of video footage in projects with other image sources. Also the Y-log video material contains significantly better dynamics than standard videos.Leica created high quality ADOBE DNG profiles, based on a holistic image optimization approach - supported as of release 11.3 of Camera Raw software. The profiles include vignetting correction, distortion correction and correction of chromatic aberrations. In addition, the color reproduction has been measured and is now very precise with DNGs. The DNG profile is chosen automatically - all you need to do is to install the latest version of Camera RAW."
+  },
+  {
+    "name": "BT58-WH Toy Foldable Mini 720p WiFi Drone - White",
+    "price": 26.3,
+    "discount": 7,
+    "new": false,
+    "category": ["OEM"],
+    "tag": ["OEM"],
+    "variation": [
+      {
+        "color": "white",
+        "image": "https://www.dronesdirect.co.uk/Images/BT58-WH_1_Supersize.jpg?v=3",
+        "size": [
+          {
+            "name": "x",
+            "stock": 1
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://www.dronesdirect.co.uk/Images/BT58-WH_1_Supersize.jpg?v=3",
+      "https://www.dronesdirect.co.uk/Images/BT58-WH_3_LargeProductImage.jpg?v=1",
+      "https://www.dronesdirect.co.uk/Images/BT58-WH_4_LargeProductImage.jpg?v=1"
+    ],
+    "shortDescription": "720p HD Quality. 650mA Battery Capacity. Charge time : 90 minutes. iOS & Android App Connectivity. Beginner Friendly - Suitable for Kids. Comes with Remote Controller & Phone Mount. Dimensions : 343×313×91mm. Frequency : 2.4GHz",
+    "fullDescription": "Equipped with a HD camera ready to take quality video and photo while flying! Bring a new perspective to your photos and videos from the air. Connect to your Drone via the Smartphone App to view a live FPV Video feed! The provided Remote Controller comes with a Take off & Land button. Press the button to initiate a take off or steady landing - perfect for new flyers! Don't worry about losing the drone, press the one key return button and the drone will fly back to where your remote is located. The Drone is fitted with sensors that support navigation and help it to perform front, backward & sideway rolls!"
+  }
+]

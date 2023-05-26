@@ -36,7 +36,7 @@ app.get("/api/config/paypal", (req, res) => {
 
 const data = JSON.parse(fs.readFileSync("./data/users.json", "utf-8"));
 const dataProducts = JSON.parse(
-  fs.readFileSync("./data/products.json", "utf-8")
+  fs.readFileSync("./data/product2.json", "utf-8")
 );
 
 const importData = async () => {

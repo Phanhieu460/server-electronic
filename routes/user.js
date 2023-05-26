@@ -3,7 +3,6 @@ const router = express.Router();
 const { protectUser } = require("../middleware/user");
 const asyncHandler = require("express-async-handler");
 const { generateToken, refreshToken } = require("../utils/generateToken");
-const tokenList = {};
 
 require("dotenv").config();
 
@@ -13,11 +12,9 @@ const User = require("../models/User");
 router.post(
   "/login",
   asyncHandler(async (req, res) => {
+    const { email, password } = req.body;
     try {
-      const user = User.findOne({ email: req.body.email });
-      console.log(user);
-
-      tokenList[refreshToken] = user;
+      const user = await User.findOne({ email });
 
       if (user && (await user.matchPassword(password, user.password))) {
         res.json({
@@ -26,13 +23,16 @@ router.post(
           token: generateToken(user._id),
           refreshToken: refreshToken(user._id),
           createdAt: user.createdAt,
+          message: "Login successful",
         });
       } else {
         res.status(401);
-        throw new Error("Email hoặc mật khẩu không đúng!");
+        throw new Error("Invalid username or password!");
       }
     } catch (error) {
-      res.status(400).json({ error });
+      res
+        .status(500)
+        .json({ error, message: "An error occurred during login" });
     }
   })
 );
@@ -42,21 +42,21 @@ router.post(
   asyncHandler(async (req, res) => {
     const { refreshToken } = req.body;
 
-    if (refreshToken && refreshToken in tokenList) {
-      try {
-        await jwt.verify(refreshToken, process.env.REFRESH_TOKEN_SECRET);
-        const user = tokenList[refreshToken];
-
-        const token = generateToken(user._id);
-        res.status(200).json({ token, refreshToken: refreshToken(user._id) });
-      } catch (error) {
-        res.status(403).json({
-          message: "Invalid refresh token",
-        });
-      }
-    } else {
-      res.status(400).json({
-        message: "Invalid request",
+    try {
+      await jwt.verify(
+        refreshToken,
+        process.env.REFRESH_TOKEN_SECRET,
+        (err, user) => {
+          if (err) {
+            return res.status(403);
+          }
+          const token = generateToken(user._id);
+          res.status(200).json({ token, refreshToken: refreshToken(user._id) });
+        }
+      );
+    } catch (error) {
+      res.status(403).json({
+        message: "Invalid refresh token",
       });
     }
   })
@@ -68,7 +68,7 @@ router.post(
   asyncHandler(async (req, res) => {
     const { firstName, lastName, email, password, image } = req.body;
 
-    const userExists = User.findOne({ email });
+    const userExists = await User.findOne({ email });
 
     if (userExists) {
       res.status(400);
@@ -102,7 +102,7 @@ router.get(
   "/profile/:id",
   protectUser,
   asyncHandler(async (req, res) => {
-    const user = User.findById(req.params.id);
+    const user = await User.findById(req.params.id);
 
     if (user) {
       res.json({
