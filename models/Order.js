@@ -13,11 +13,11 @@ const OrderSchema = new Schema({
       quantity: { type: Number, required: true },
       image: { type: Array, required: true },
       price: { type: Number, required: true },
-      product: {
-        type: Schema.Types.ObjectId,
-        required: true,
-        ref: "products",
-      },
+      // product: {
+      //   type: Schema.Types.ObjectId,
+      //   required: true,
+      //   ref: "products",
+      // },
     },
   ],
   shippingAddress: {
