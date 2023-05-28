@@ -6,7 +6,7 @@ const {
   generateToken,
   refreshTokenService,
 } = require("../utils/generateToken");
-const tokenList = {};
+
 const jwt = require("jsonwebtoken");
 
 require("dotenv").config();
@@ -22,7 +22,6 @@ router.post(
       const user = await User.findOne({ email });
 
       if (user && (await user.matchPassword(password, user.password))) {
-        tokenList[refreshToken] = {};
         res.json({
           _id: user._id,
           email: user.email,
