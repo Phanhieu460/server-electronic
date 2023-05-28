@@ -51,7 +51,6 @@ const OrderSchema = new Schema({
   },
   isPaid: {
     type: Boolean,
-    required: true,
     default: false,
   },
   paidAt: {
@@ -59,7 +58,6 @@ const OrderSchema = new Schema({
   },
   isDelivered: {
     type: Boolean,
-    required: true,
     default: false,
   },
   deliveredAt: {
