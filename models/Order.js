@@ -22,7 +22,6 @@ const OrderSchema = new Schema({
   ],
   shippingAddress: {
     address: { type: String, required: true },
-    city: { type: String, required: true },
     phone: { type: String, required: true },
   },
   paymentMethod: {
