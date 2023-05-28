@@ -6,10 +6,10 @@ const generateToken = (id) => {
   });
 };
 
-const refreshToken = (id) => {
+const refreshTokenService = (id) => {
   return jwt.sign({ id }, process.env.REFRESH_TOKEN_SECRET, {
     expiresIn: "7d",
   });
 };
 
-module.exports = { generateToken, refreshToken };
+module.exports = { generateToken, refreshTokenService };

@@ -2,7 +2,12 @@ const express = require("express");
 const router = express.Router();
 const { protectUser } = require("../middleware/user");
 const asyncHandler = require("express-async-handler");
-const { generateToken, refreshToken } = require("../utils/generateToken");
+const {
+  generateToken,
+  refreshTokenService,
+} = require("../utils/generateToken");
+const tokenList = {};
+const jwt = require("jsonwebtoken");
 
 require("dotenv").config();
 
@@ -17,6 +22,7 @@ router.post(
       const user = await User.findOne({ email });
 
       if (user && (await user.matchPassword(password, user.password))) {
+        tokenList[refreshToken] = {};
         res.json({
           _id: user._id,
           email: user.email,
@@ -41,9 +47,8 @@ router.post(
   "/refreshToken",
   asyncHandler(async (req, res) => {
     const { refreshToken } = req.body;
-
     try {
-      await jwt.verify(
+      const response = await jwt.verify(
         refreshToken,
         process.env.REFRESH_TOKEN_SECRET,
         (err, user) => {
@@ -51,9 +56,12 @@ router.post(
             return res.status(403);
           }
           const token = generateToken(user._id);
-          res.status(200).json({ token, refreshToken: refreshToken(user._id) });
+          res
+            .status(200)
+            .json({ token, refreshToken: refreshTokenService(user._id) });
         }
       );
+      return res.json(response);
     } catch (error) {
       res.status(401).json({
         message: "Invalid refresh token",
