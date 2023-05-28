@@ -26,7 +26,7 @@ router.post(
           _id: user._id,
           email: user.email,
           token: generateToken(user._id),
-          refreshToken: refreshToken(user._id),
+          refreshToken: refreshTokenService(user._id),
           createdAt: user.createdAt,
           message: "Login successful",
         });
