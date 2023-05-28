@@ -36,7 +36,9 @@ router.post(
       });
 
       const createOrder = await order.save();
-      res.status(201).json(createOrder);
+      res
+        .status(200)
+        .json({ createOrder, message: "Order Successfully!", status: 200 });
     }
   })
 );
