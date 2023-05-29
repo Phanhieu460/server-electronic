@@ -54,10 +54,14 @@ router.post(
           if (err) {
             return res.status(403);
           }
-          const token = generateToken(user._id);
+          const token = generateToken(user.id);
           res
             .status(200)
-            .json({ token, refreshToken: refreshTokenService(user._id) });
+            .json({
+              id: user.id,
+              token,
+              refreshToken: refreshTokenService(user.id),
+            });
         }
       );
       return res.json(response);
