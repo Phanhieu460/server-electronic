@@ -55,13 +55,11 @@ router.post(
             return res.status(403);
           }
           const token = generateToken(user.id);
-          res
-            .status(200)
-            .json({
-              id: user.id,
-              token,
-              refreshToken: refreshTokenService(user.id),
-            });
+          res.status(200).json({
+            id: user.id,
+            token,
+            refreshToken: refreshTokenService(user.id),
+          });
         }
       );
       return res.json(response);
@@ -99,7 +97,7 @@ router.post(
         _id: user._id,
         email: user.email,
         token: generateToken(user._id),
-        refreshToken: refreshToken(user._id),
+        refreshToken: refreshTokenService(user._id),
       });
     } else {
       res.status(400);
@@ -162,7 +160,7 @@ router.put(
         address: updatedUser.address,
         createdAt: updatedUser.createdAt,
         token: generateToken(updatedUser._id),
-        refreshToken: refreshToken(updatedUser._id),
+        refreshToken: refreshTokenService(updatedUser._id),
       });
     } else {
       res.status(404);
